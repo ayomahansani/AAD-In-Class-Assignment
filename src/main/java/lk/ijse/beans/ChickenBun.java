@@ -11,6 +11,6 @@ import org.springframework.stereotype.Component;
 public class ChickenBun implements Food {
     @Override
     public void eat() {
-        System.out.println("Chicken Bun");
+        System.out.println("03 like - Chicken Bun");
     }
 }
