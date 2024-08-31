@@ -1,4 +1,12 @@
 package lk.ijse.beans;
 
-public class FishBun {
+import lk.ijse.contract.Food;
+import org.springframework.stereotype.Component;
+
+@Component
+public class FishBun implements Food {
+    @Override
+    public void eat() {
+        System.out.println("1st like - Fish Bun");
+    }
 }
