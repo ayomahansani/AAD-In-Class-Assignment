@@ -9,6 +9,5 @@ public class AppInit {
         var ctx = new AnnotationConfigApplicationContext();
         ctx.register(Configuration.class);
         ctx.refresh();
-        ctx.registerShutdownHook();
     }
 }
