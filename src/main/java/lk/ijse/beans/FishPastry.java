@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Primary
 public class FishPastry implements Food {
+
     @Override
     public void eat() {
         System.out.println("02 like - Fish Pastry");

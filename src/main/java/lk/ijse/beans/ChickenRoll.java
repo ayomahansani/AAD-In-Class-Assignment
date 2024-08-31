@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 @Qualifier("This is Yummy")
 @FinallyLike
 public class ChickenRoll implements Food {
+
     @Override
     public void eat() {
         System.out.println("Finally Like ChickenRoll");

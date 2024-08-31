@@ -1,4 +1,4 @@
-package lk.ijse.user;
+package lk.ijse.foodLover;
 
 import lk.ijse.contract.Food;
 import lk.ijse.customAnnotaion.FinallyLike;

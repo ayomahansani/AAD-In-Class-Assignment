@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Primary
 @Qualifier("This is Yummy")
 public class ChickenBun implements Food {
+
     @Override
     public void eat() {
         System.out.println("03 like - Chicken Bun");
